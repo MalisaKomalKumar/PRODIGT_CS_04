@@ -1,0 +1,26 @@
+KEY LOGGER
+
+Key logger?
+It works in background and it logs all your keys like if you type on your keyboard (char, numbers, space & special char). It captures all inputs and save it as a file and this file can be send a mail of the saved data to the hacker. 
+This is the way the hackers use this technique 
+
+KEY LOGGER
+In python 
+This refers that program written in python.
+
+1.	Importing the keyboard Module:
+	This line imports a Python module named keyboard which provides functions to interact with keyboard events.
+2.	Defining the Filename:
+	A variable named filename is defined to store the name of the file where the keystrokes will be logged.
+3.	Writing Keystrokes to File:
+	There's a function defined that is responsible for writing the pressed keys to the specified file.
+	It checks if the pressed key is a character key, and if so, it writes the character to the file.
+	If the pressed key is the spacebar, it writes an actual space character to the file.
+	If the pressed key is a special key (e.g., Enter, Shift), it writes the key directly to the file.
+4.	Starting the Keylogger:
+	There's a function defined to start the keylogger.
+	It sets up a listener for keyboard release events and specifies the function to call whenever a key is released.
+	It waits for a specific key (e.g., 'esc') to be pressed to stop the keylogger.
+5.	Main Function:
+	This block of code is the entry point of the script.
+	It checks if the script is being run directly and if so, it prints a message indicating that the keylogger has started and then calls the function to start the keylogger.
